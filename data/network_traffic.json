@@ -1,0 +1,167 @@
+[
+  {
+    "timestamp": "2025-10-22T08:14:32Z",
+    "source_ip": "192.168.1.105",
+    "dest_ip": "8.8.8.8",
+    "source_port": 54231,
+    "dest_port": 53,
+    "protocol": "UDP",
+    "bytes_sent": 512,
+    "bytes_received": 328,
+    "action": "allow"
+  },
+  {
+    "timestamp": "2025-10-22T08:16:45Z",
+    "source_ip": "10.0.0.45",
+    "dest_ip": "192.168.1.10",
+    "source_port": 44589,
+    "dest_port": 22,
+    "protocol": "TCP",
+    "bytes_sent": 2048,
+    "bytes_received": 0,
+    "action": "deny"
+  },
+  {
+    "timestamp": "2025-10-22T08:19:22Z",
+    "source_ip": "192.168.1.87",
+    "dest_ip": "151.101.1.140",
+    "source_port": 52341,
+    "dest_port": 443,
+    "protocol": "TCP",
+    "bytes_sent": 4512,
+    "bytes_received": 89340,
+    "action": "allow"
+  },
+  {
+    "timestamp": "2025-10-22T08:23:11Z",
+    "source_ip": "203.0.113.42",
+    "dest_ip": "192.168.1.10",
+    "source_port": 38921,
+    "dest_port": 3389,
+    "protocol": "TCP",
+    "bytes_sent": 1024,
+    "bytes_received": 0,
+    "action": "deny"
+  },
+  {
+    "timestamp": "2025-10-22T08:27:55Z",
+    "source_ip": "192.168.1.105",
+    "dest_ip": "172.217.14.206",
+    "source_port": 55632,
+    "dest_port": 443,
+    "protocol": "TCP",
+    "bytes_sent": 7821,
+    "bytes_received": 125440,
+    "action": "allow"
+  },
+  {
+    "timestamp": "2025-10-22T08:32:44Z",
+    "source_ip": "198.51.100.23",
+    "dest_ip": "192.168.1.10",
+    "source_port": 12345,
+    "dest_port": 22,
+    "protocol": "TCP",
+    "bytes_sent": 896,
+    "bytes_received": 0,
+    "action": "deny"
+  },
+  {
+    "timestamp": "2025-10-22T08:38:17Z",
+    "source_ip": "10.0.0.12",
+    "dest_ip": "10.0.0.100",
+    "source_port": 49231,
+    "dest_port": 5432,
+    "protocol": "TCP",
+    "bytes_sent": 15624,
+    "bytes_received": 47890,
+    "action": "allow"
+  },
+  {
+    "timestamp": "2025-10-22T08:43:09Z",
+    "source_ip": "192.168.1.201",
+    "dest_ip": "1.1.1.1",
+    "source_port": 51244,
+    "dest_port": 53,
+    "protocol": "UDP",
+    "bytes_sent": 468,
+    "bytes_received": 294,
+    "action": "allow"
+  },
+  {
+    "timestamp": "2025-10-22T08:47:33Z",
+    "source_ip": "172.16.0.88",
+    "dest_ip": "192.168.1.10",
+    "source_port": 33421,
+    "dest_port": 80,
+    "protocol": "TCP",
+    "bytes_sent": 2341,
+    "bytes_received": 8904,
+    "action": "allow"
+  },
+  {
+    "timestamp": "2025-10-22T08:52:21Z",
+    "source_ip": "192.168.1.143",
+    "dest_ip": "13.107.42.14",
+    "source_port": 54789,
+    "dest_port": 443,
+    "protocol": "TCP",
+    "bytes_sent": 9234,
+    "bytes_received": 234501,
+    "action": "allow"
+  },
+  {
+    "timestamp": "2025-10-22T08:58:44Z",
+    "source_ip": "10.0.0.25",
+    "dest_ip": "10.0.0.50",
+    "source_port": 873,
+    "dest_port": 873,
+    "protocol": "TCP",
+    "bytes_sent": 524288,
+    "bytes_received": 128,
+    "action": "allow"
+  },
+  {
+    "timestamp": "2025-10-22T09:03:12Z",
+    "source_ip": "198.51.100.23",
+    "dest_ip": "192.168.1.10",
+    "source_port": 12346,
+    "dest_port": 22,
+    "protocol": "TCP",
+    "bytes_sent": 1152,
+    "bytes_received": 0,
+    "action": "deny"
+  },
+  {
+    "timestamp": "2025-10-22T09:08:55Z",
+    "source_ip": "192.168.1.105",
+    "dest_ip": "104.16.132.229",
+    "source_port": 56234,
+    "dest_port": 443,
+    "protocol": "TCP",
+    "bytes_sent": 6743,
+    "bytes_received": 98234,
+    "action": "allow"
+  },
+  {
+    "timestamp": "2025-10-22T09:14:27Z",
+    "source_ip": "203.0.113.42",
+    "dest_ip": "192.168.1.10",
+    "source_port": 39821,
+    "dest_port": 445,
+    "protocol": "TCP",
+    "bytes_sent": 768,
+    "bytes_received": 0,
+    "action": "deny"
+  },
+  {
+    "timestamp": "2025-10-22T09:19:41Z",
+    "source_ip": "192.168.1.87",
+    "dest_ip": "93.184.216.34",
+    "source_port": 57891,
+    "dest_port": 80,
+    "protocol": "TCP",
+    "bytes_sent": 3421,
+    "bytes_received": 45678,
+    "action": "allow"
+  }
+]
