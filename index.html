@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIEM Query Lab - Master Security Query Languages</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">
+                    <span class="logo-icon">🔍</span>
+                    <span class="logo-text">SIEM Query Lab</span>
+                </h1>
+                <p class="tagline">Master SQL, SPL, KQL & Sigma for Security Analytics</p>
+            </div>
+            <nav class="language-selector">
+                <button class="lang-btn active" data-lang="sql">SQL</button>
+                <button class="lang-btn" data-lang="spl">SPL</button>
+                <button class="lang-btn" data-lang="kql">KQL</button>
+                <button class="lang-btn" data-lang="sigma">Sigma</button>
+            </nav>
+        </header>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+            <div class="progress-text" id="progressText">0% Complete</div>
+        </div>
+
+        <main class="main-content">
+            <aside class="sidebar">
+                <div class="module-list" id="moduleList">
+                    <!-- Modules populated by JS -->
+                </div>
+            </aside>
+
+            <section class="content-area">
+                <div class="lesson-container" id="lessonContainer">
+                    <div class="welcome-screen">
+                        <h2>Welcome to SIEM Query Lab</h2>
+                        <p>Learn security query languages through hands-on practice with realistic security data.</p>
+                        <div class="feature-grid">
+                            <div class="feature-card">
+                                <span class="feature-icon">📚</span>
+                                <h3>Theory & Practice</h3>
+                                <p>Structured learning path from basics to advanced challenges</p>
+                            </div>
+                            <div class="feature-card">
+                                <span class="feature-icon">💾</span>
+                                <h3>Real Security Data</h3>
+                                <p>Query auth logs, network traffic, DNS, and process events</p>
+                            </div>
+                            <div class="feature-card">
+                                <span class="feature-icon">⚡</span>
+                                <h3>Instant Feedback</h3>
+                                <p>Run queries in your browser with immediate results</p>
+                            </div>
+                            <div class="feature-card">
+                                <span class="feature-icon">🎯</span>
+                                <h3>Practical Challenges</h3>
+                                <p>Solve real-world security investigation scenarios</p>
+                            </div>
+                        </div>
+                        <button class="cta-button" onclick="startLearning()">Start Learning</button>
+                    </div>
+                </div>
+
+                <div class="query-workspace" id="queryWorkspace" style="display: none;">
+                    <div class="workspace-header">
+                        <h3 id="workspaceTitle">Query Editor</h3>
+                        <div class="workspace-controls">
+                            <select id="dataSourceSelect" class="data-source-select">
+                                <option value="auth_logs">Authentication Logs</option>
+                                <option value="network_traffic">Network Traffic</option>
+                                <option value="dns_logs">DNS Logs</option>
+                                <option value="process_events">Process Events</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="editor-container">
+                        <textarea id="queryEditor" class="query-editor" placeholder="Write your query here..."></textarea>
+                        <div class="editor-actions">
+                            <button class="btn-primary" id="runQueryBtn">Run Query</button>
+                            <button class="btn-secondary" id="clearBtn">Clear</button>
+                            <button class="btn-secondary" id="hintBtn">Hint</button>
+                        </div>
+                    </div>
+
+                    <div class="results-container" id="resultsContainer">
+                        <div class="results-header">
+                            <h4>Results</h4>
+                            <span class="result-count" id="resultCount"></span>
+                        </div>
+                        <div class="results-content" id="resultsContent">
+                            <p class="placeholder-text">Run a query to see results</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Built for security analysts learning SIEM query languages</p>
+            <div class="footer-links">
+                <a href="https://github.com/yourusername/siem-query-lab" target="_blank">GitHub</a>
+                <a href="#about">About</a>
+                <a href="#resources">Resources</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/query-engine.js"></script>
+    <script src="js/challenges.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
