@@ -1,0 +1,101 @@
+[
+  {
+    "timestamp": "2025-10-22T08:14:28Z",
+    "source_ip": "192.168.1.105",
+    "query": "www.google.com",
+    "query_type": "A",
+    "response": "172.217.14.196",
+    "dns_server": "8.8.8.8",
+    "response_code": "NOERROR"
+  },
+  {
+    "timestamp": "2025-10-22T08:19:15Z",
+    "query": "malicious-domain.xyz",
+    "source_ip": "10.0.0.45",
+    "query_type": "A",
+    "response": "198.51.100.99",
+    "dns_server": "8.8.8.8",
+    "response_code": "NOERROR"
+  },
+  {
+    "timestamp": "2025-10-22T08:24:42Z",
+    "source_ip": "192.168.1.87",
+    "query": "github.com",
+    "query_type": "A",
+    "response": "140.82.121.4",
+    "dns_server": "1.1.1.1",
+    "response_code": "NOERROR"
+  },
+  {
+    "timestamp": "2025-10-22T08:29:33Z",
+    "source_ip": "203.0.113.42",
+    "query": "c2-server.onion.to",
+    "query_type": "A",
+    "response": null,
+    "dns_server": "8.8.8.8",
+    "response_code": "NXDOMAIN"
+  },
+  {
+    "timestamp": "2025-10-22T08:34:11Z",
+    "source_ip": "192.168.1.201",
+    "query": "api.openai.com",
+    "query_type": "A",
+    "response": "104.18.7.192",
+    "dns_server": "1.1.1.1",
+    "response_code": "NOERROR"
+  },
+  {
+    "timestamp": "2025-10-22T08:39:22Z",
+    "source_ip": "10.0.0.12",
+    "query": "database.internal.corp",
+    "query_type": "A",
+    "response": "10.0.0.100",
+    "dns_server": "10.0.0.2",
+    "response_code": "NOERROR"
+  },
+  {
+    "timestamp": "2025-10-22T08:44:55Z",
+    "source_ip": "192.168.1.105",
+    "query": "cdn.jsdelivr.net",
+    "query_type": "A",
+    "response": "151.101.1.229",
+    "dns_server": "8.8.8.8",
+    "response_code": "NOERROR"
+  },
+  {
+    "timestamp": "2025-10-22T08:49:08Z",
+    "source_ip": "172.16.0.88",
+    "query": "phishing-site.com",
+    "query_type": "A",
+    "response": "185.220.101.45",
+    "dns_server": "8.8.8.8",
+    "response_code": "NOERROR"
+  },
+  {
+    "timestamp": "2025-10-22T08:54:27Z",
+    "source_ip": "192.168.1.143",
+    "query": "office.com",
+    "query_type": "A",
+    "response": "13.107.42.14",
+    "dns_server": "1.1.1.1",
+    "response_code": "NOERROR"
+  },
+  {
+    "timestamp": "2025-10-22T08:59:41Z",
+    "source_ip": "10.0.0.25",
+    "query": "backup.internal.corp",
+    "query_type": "A",
+    "response": "10.0.0.50",
+    "dns_server": "10.0.0.2",
+    "response_code": "NOERROR"
+  },
+  {
+    "timestamp": "2025-10-22T09:04:19Z",
+    "source_ip": "192.168.1.87",
+    "query": "example.com",
+    "query_type": "A",
+    "response": "93.184.216.34",
+    "dns_server": "8.8.8.8",
+    "response_code": "NOERROR"
+  }
+]
