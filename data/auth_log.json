@@ -1,0 +1,162 @@
+[
+  {
+    "timestamp": "2025-10-22T08:15:23Z",
+    "username": "jsmith",
+    "action": "successful_login",
+    "source_ip": "192.168.1.105",
+    "user_agent": "Mozilla/5.0",
+    "session_id": "sess_89a7f2"
+  },
+  {
+    "timestamp": "2025-10-22T08:17:45Z",
+    "username": "admin",
+    "action": "failed_login",
+    "source_ip": "10.0.0.45",
+    "user_agent": "curl/7.68.0",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-22T08:18:02Z",
+    "username": "admin",
+    "action": "failed_login",
+    "source_ip": "10.0.0.45",
+    "user_agent": "curl/7.68.0",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-22T08:18:15Z",
+    "username": "admin",
+    "action": "failed_login",
+    "source_ip": "10.0.0.45",
+    "user_agent": "curl/7.68.0",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-22T08:22:10Z",
+    "username": "mjones",
+    "action": "successful_login",
+    "source_ip": "192.168.1.87",
+    "user_agent": "Mozilla/5.0",
+    "session_id": "sess_4b9c21"
+  },
+  {
+    "timestamp": "2025-10-22T08:25:33Z",
+    "username": "dbrown",
+    "action": "failed_login",
+    "source_ip": "203.0.113.42",
+    "user_agent": "python-requests/2.28",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-22T08:30:44Z",
+    "username": "jsmith",
+    "action": "logout",
+    "source_ip": "192.168.1.105",
+    "user_agent": "Mozilla/5.0",
+    "session_id": "sess_89a7f2"
+  },
+  {
+    "timestamp": "2025-10-22T08:35:12Z",
+    "username": "root",
+    "action": "failed_login",
+    "source_ip": "198.51.100.23",
+    "user_agent": "ssh-client",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-22T08:35:18Z",
+    "username": "root",
+    "action": "failed_login",
+    "source_ip": "198.51.100.23",
+    "user_agent": "ssh-client",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-22T08:40:55Z",
+    "username": "service_account",
+    "action": "successful_login",
+    "source_ip": "10.0.0.12",
+    "user_agent": "Java/11.0.2",
+    "session_id": "sess_7f3d91"
+  },
+  {
+    "timestamp": "2025-10-22T08:45:22Z",
+    "username": "dbrown",
+    "action": "failed_login",
+    "source_ip": "203.0.113.42",
+    "user_agent": "python-requests/2.28",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-22T08:50:33Z",
+    "username": "twilliams",
+    "action": "successful_login",
+    "source_ip": "192.168.1.201",
+    "user_agent": "Mozilla/5.0",
+    "session_id": "sess_2e8f44"
+  },
+  {
+    "timestamp": "2025-10-22T08:55:11Z",
+    "username": "admin",
+    "action": "successful_login",
+    "source_ip": "192.168.1.5",
+    "user_agent": "Mozilla/5.0",
+    "session_id": "sess_9a1c56"
+  },
+  {
+    "timestamp": "2025-10-22T09:00:04Z",
+    "username": "mjones",
+    "action": "logout",
+    "source_ip": "192.168.1.87",
+    "user_agent": "Mozilla/5.0",
+    "session_id": "sess_4b9c21"
+  },
+  {
+    "timestamp": "2025-10-22T09:05:47Z",
+    "username": "guest",
+    "action": "failed_login",
+    "source_ip": "172.16.0.88",
+    "user_agent": "Mozilla/5.0",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-22T09:10:20Z",
+    "username": "jsmith",
+    "action": "successful_login",
+    "source_ip": "192.168.1.105",
+    "user_agent": "Mozilla/5.0",
+    "session_id": "sess_3c7e92"
+  },
+  {
+    "timestamp": "2025-10-22T09:15:38Z",
+    "username": "dbrown",
+    "action": "successful_login",
+    "source_ip": "192.168.1.143",
+    "user_agent": "Mozilla/5.0",
+    "session_id": "sess_8d4a77"
+  },
+  {
+    "timestamp": "2025-10-22T09:20:55Z",
+    "username": "backup_user",
+    "action": "successful_login",
+    "source_ip": "10.0.0.25",
+    "user_agent": "rsync/3.2.3",
+    "session_id": "sess_1f9b23"
+  },
+  {
+    "timestamp": "2025-10-22T09:25:12Z",
+    "username": "root",
+    "action": "failed_login",
+    "source_ip": "198.51.100.23",
+    "user_agent": "ssh-client",
+    "session_id": null
+  },
+  {
+    "timestamp": "2025-10-22T09:30:44Z",
+    "username": "twilliams",
+    "action": "logout",
+    "source_ip": "192.168.1.201",
+    "user_agent": "Mozilla/5.0",
+    "session_id": "sess_2e8f44"
+  }
+]
