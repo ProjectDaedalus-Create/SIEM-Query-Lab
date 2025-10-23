@@ -1,0 +1,123 @@
+[
+  {
+    "timestamp": "2025-10-22T08:15:44Z",
+    "hostname": "DESKTOP-A1B2C3",
+    "process_name": "chrome.exe",
+    "process_id": 5432,
+    "parent_process": "explorer.exe",
+    "parent_pid": 2104,
+    "command_line": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
+    "user": "jsmith",
+    "integrity_level": "Medium"
+  },
+  {
+    "timestamp": "2025-10-22T08:17:22Z",
+    "hostname": "SERVER-PROD-01",
+    "process_name": "powershell.exe",
+    "process_id": 7891,
+    "parent_process": "cmd.exe",
+    "parent_pid": 3421,
+    "command_line": "powershell.exe -EncodedCommand JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAA=",
+    "user": "admin",
+    "integrity_level": "High"
+  },
+  {
+    "timestamp": "2025-10-22T08:22:15Z",
+    "hostname": "LAPTOP-XYZ789",
+    "process_name": "outlook.exe",
+    "process_id": 6234,
+    "parent_process": "explorer.exe",
+    "parent_pid": 1956,
+    "command_line": "\"C:\\Program Files\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE\"",
+    "user": "mjones",
+    "integrity_level": "Medium"
+  },
+  {
+    "timestamp": "2025-10-22T08:26:33Z",
+    "hostname": "SERVER-PROD-01",
+    "process_name": "mimikatz.exe",
+    "process_id": 8912,
+    "parent_process": "powershell.exe",
+    "parent_pid": 7891,
+    "command_line": "mimikatz.exe privilege::debug sekurlsa::logonpasswords",
+    "user": "admin",
+    "integrity_level": "High"
+  },
+  {
+    "timestamp": "2025-10-22T08:31:08Z",
+    "hostname": "DESKTOP-A1B2C3",
+    "process_name": "notepad.exe",
+    "process_id": 9441,
+    "parent_process": "explorer.exe",
+    "parent_pid": 2104,
+    "command_line": "\"C:\\Windows\\System32\\notepad.exe\" document.txt",
+    "user": "jsmith",
+    "integrity_level": "Medium"
+  },
+  {
+    "timestamp": "2025-10-22T08:36:52Z",
+    "hostname": "WORKSTATION-42",
+    "process_name": "cmd.exe",
+    "process_id": 4521,
+    "parent_process": "winword.exe",
+    "parent_pid": 3890,
+    "command_line": "cmd.exe /c whoami && net user",
+    "user": "dbrown",
+    "integrity_level": "Medium"
+  },
+  {
+    "timestamp": "2025-10-22T08:41:17Z",
+    "hostname": "SERVER-BACKUP",
+    "process_name": "rsync.exe",
+    "process_id": 2341,
+    "parent_process": "services.exe",
+    "parent_pid": 668,
+    "command_line": "rsync -avz /data/ backup@10.0.0.50:/backups/",
+    "user": "backup_user",
+    "integrity_level": "System"
+  },
+  {
+    "timestamp": "2025-10-22T08:46:29Z",
+    "hostname": "DESKTOP-DEV-05",
+    "process_name": "python.exe",
+    "process_id": 7723,
+    "parent_process": "explorer.exe",
+    "parent_pid": 2344,
+    "command_line": "python.exe -c \"import socket; s=socket.socket()\"",
+    "user": "twilliams",
+    "integrity_level": "Medium"
+  },
+  {
+    "timestamp": "2025-10-22T08:51:44Z",
+    "hostname": "SERVER-PROD-01",
+    "process_name": "reg.exe",
+    "process_id": 9012,
+    "parent_process": "cmd.exe",
+    "parent_pid": 8456,
+    "command_line": "reg.exe add HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run /v Backdoor",
+    "user": "admin",
+    "integrity_level": "High"
+  },
+  {
+    "timestamp": "2025-10-22T08:56:33Z",
+    "hostname": "LAPTOP-XYZ789",
+    "process_name": "teams.exe",
+    "process_id": 6788,
+    "parent_process": "explorer.exe",
+    "parent_pid": 1956,
+    "command_line": "\"C:\\Users\\mjones\\AppData\\Local\\Microsoft\\Teams\\current\\Teams.exe\"",
+    "user": "mjones",
+    "integrity_level": "Medium"
+  },
+  {
+    "timestamp": "2025-10-22T09:01:55Z",
+    "hostname": "WORKSTATION-42",
+    "process_name": "netsh.exe",
+    "process_id": 5634,
+    "parent_process": "cmd.exe",
+    "parent_pid": 4521,
+    "command_line": "netsh.exe advfirewall set allprofiles state off",
+    "user": "dbrown",
+    "integrity_level": "High"
+  }
+]
